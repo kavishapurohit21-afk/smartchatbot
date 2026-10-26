@@ -1,0 +1,272 @@
+/*=================================================
+  ICT Department Website
+  Government Polytechnic for Girls, Surat
+
+  File : responsive.css
+  Purpose : Responsive Design
+==================================================*/
+
+
+/*=============================
+          TABLET
+=============================*/
+
+@media(max-width:992px){
+
+.container{
+
+    width:95%;
+
+}
+
+.hero-content h1{
+
+    font-size:40px;
+
+}
+
+.hero-content p{
+
+    font-size:18px;
+
+}
+
+.section-title{
+
+    font-size:30px;
+
+}
+
+}
+
+
+/*=============================
+          MOBILE
+=============================*/
+
+@media(max-width:768px){
+
+nav{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:15px 0;
+
+}
+
+.logo{
+
+    margin-bottom:15px;
+
+}
+
+nav ul{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.hero{
+
+    height:70vh;
+
+}
+
+.hero-content h1{
+
+    font-size:32px;
+
+}
+
+.hero-content p{
+
+    font-size:16px;
+
+}
+
+.btn{
+
+    padding:10px 24px;
+
+}
+
+section{
+
+    padding:50px 0;
+
+}
+
+.section-title{
+
+    font-size:28px;
+
+}
+
+}
+
+
+/*=============================
+       SMALL MOBILE
+=============================*/
+
+@media(max-width:480px){
+
+.hero{
+
+    height:60vh;
+
+}
+
+.hero-content h1{
+
+    font-size:26px;
+
+}
+
+.hero-content p{
+
+    font-size:14px;
+
+}
+
+.logo img{
+
+    width:45px;
+
+}
+
+.logo-text h2{
+
+    font-size:18px;
+
+}
+
+.logo-text p{
+
+    font-size:11px;
+
+}
+
+.section-title{
+
+    font-size:24px;
+
+}
+
+footer{
+
+    font-size:14px;
+
+}
+
+}
+
+
+/*==================================================
+            END OF FILE
+==================================================*/
+/*==========================================
+      VISION & MISSION RESPONSIVE
+==========================================*/
+
+@media(max-width:768px){
+
+.vm-container{
+
+    flex-direction:column;
+
+}
+
+}
+/*==================================
+        FACULTY RESPONSIVE
+==================================*/
+
+@media(max-width:768px){
+
+.faculty-list{
+
+    grid-template-columns:1fr;
+
+}
+
+.popup-box{
+
+    width:90%;
+
+}
+
+.popup-buttons{
+
+    flex-direction:column;
+
+}
+
+}
+/*==================================
+      LABORATORY RESPONSIVE
+==================================*/
+
+@media(max-width:768px){
+
+.lab-card img{
+
+    height:220px;
+
+}
+
+.lab-card h3{
+
+    font-size:22px;
+
+}
+
+.lab-card h4{
+
+    font-size:18px;
+
+}
+
+.lab-card p{
+
+    font-size:15px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.lab-card img{
+
+    height:180px;
+
+}
+
+.lab-card h3{
+
+    font-size:20px;
+
+}
+
+.lab-card h4{
+
+    font-size:17px;
+
+}
+
+.lab-card p{
+
+    font-size:14px;
+
+    line-height:1.6;
+
+}
+
+}
